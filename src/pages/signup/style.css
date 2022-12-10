@@ -1,0 +1,71 @@
+.signup {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets//bg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.signup > .center {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup .flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 2%;
+}
+
+.signup .box {
+  width: clamp(150px, 100%, 600px);
+  padding: 45px 3%;
+  border-radius: 15px;
+  color: rgb(30, 30, 30);
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.signup .box .form,
+.signup .box .form label,
+.signup .box .form label {
+  width: 100%;
+}
+
+.signup .form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.signup .send {
+  margin-top: 15px;
+}
+
+.signup .formTitle {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--highlight);
+  font-weight: 300;
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+
+.signup .alert {
+  color: red;
+  font-weight: 200;
+}
+
+.signup a.highlight {
+  font-weight: 200;
+  color: var(--highlight);
+}

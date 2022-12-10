@@ -1,0 +1,39 @@
+.boxCard {
+  padding: 15px 2%;
+  width: 100%;
+  max-width: 33.3%;
+  border-radius: 16px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #ccc;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.219);
+}
+
+.boxCard_Header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.boxCard_Header .title {
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 1rem;
+  font-style: oblique;
+}
+
+.boxCard .boxCard_Header .icon {
+  font-size: 1.5rem;
+}
+
+.boxCard .value {
+  font-weight: 300;
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+}
+
+.boxCard .last {
+  font-weight: 300;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,12 @@
+.options {
+  margin: -75px 0 35px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.options .button {
+  height: 45px;
+  max-width: 250px;
+}
+

@@ -36,7 +36,7 @@ export const UserProvider: React.FC<Props> = ({ children }) => {
 		setUser(null);
 	}
 
-	const singup = async (form: INewUsers): Promise<void> => {
+	const signup = async (form: INewUsers): Promise<void> => {
 		try {
 			await api.post('/user', { ...form });
 
@@ -48,7 +48,7 @@ export const UserProvider: React.FC<Props> = ({ children }) => {
 	const data: object = {
 		user,
 		login,
-		singup,
+		signup,
 		logout,
 		headers,
 		token,
